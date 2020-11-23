@@ -1,4 +1,5 @@
 import './App.css';
+import './style.scss';
 import imgApple from './img/icon_apple.png';
 import imgProfile from './img/emoji_mujer.png';
 import img_TresPuntos from './img/img_puntos.png';
@@ -32,18 +33,18 @@ function App() {
   return (
 
     <div className="o-container-all row">
-    <div className="o-container-menu col-1">
-      <div><img src={img_TresPuntos}/></div>
-      <div><img src={img_BtnTriangulo}/></div>
-      <div><img src={img_BtnCuadrado}/></div>
-      <div><img src={img_BtnMas}/></div>
+    <div className="o-container-menu col-1 d-flex flex-column align-items-center pr-1">
+      <div><img className="img-fluid mt-4" src={img_TresPuntos}/></div>
+      <div><img className="img-fluid o-btn-menu " src={img_BtnTriangulo}/></div>
+      <div><img className="img-fluid o-btn-menu " src={img_BtnCuadrado}/></div>
+      <div><img className="img-fluid o-btn-menu " src={img_BtnMas}/></div>
 
 
       
     </div>  
 
     <div className="o-container-profile col-3">
-      <img src={imgProfile} placeholder="img-profile"/>
+      <img className="mt-5 o-img-profile" src={imgProfile} placeholder="img-profile"/>
 
       <div className="o-container-title-welcome">Welcome back, Julie Bell</div>
 
