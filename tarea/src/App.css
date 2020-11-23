@@ -4,3 +4,16 @@
 .o-container-profile{
   color:black;
 }
+.o-container-menu{
+  background-color: black;
+}
+.details-with-clip{
+  display: flex;
+}
+.img_clip{
+  
+  width: 10px;
+}
+.img-negra-card{
+  width: 15rem;
+}
