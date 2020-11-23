@@ -1,6 +1,14 @@
 import './App.css';
+import imgApple from './img/icon_apple.png';
+
 
 function App() {
+
+  let img=[
+    require("./img/icon_apple.png"),
+    require("./img/icon_trespuntos.png"),
+
+  ]
   return (
 
     <div className="o-container-all row">
@@ -59,7 +67,7 @@ function App() {
                   <label className="card-text">23 sepp, 2020</label>
                   <spam>icon</spam>
                   <div>
-                    <img src="./img/web_grafica.PNG"></img>
+                    <img src={imgApple}></img>
                     <label className="card-text">Software</label>
                   </div>
                 </div>
@@ -72,7 +80,8 @@ function App() {
                   <label className="card-text">23 sepp, 2020</label>
                   <spam>icon</spam>
                   <div>
-                    <img src="./img/web_grafica.PNG"></img>
+                    
+                    <img src='./img/icon_apple.png'/>
                     <label className="card-text">Software</label>
                   </div>
                 </div>
